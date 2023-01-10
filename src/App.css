@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  background-color:black;
+  min-height: 130rem;
+  max-height: auto;
+}
+
+
+
+.input-field{
+  height: 10rem;
+  width: 55rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15rem;
+  border-radius: 5px;
+
+}
+.input-box{
+  width: 40rem;
+  height: 1.5rem;
+  border-radius: 5px ;
+  border: 3px solid #00bfff;
+  margin-left: 2rem;
+}
+.input-btn{
+  height: 1.8rem;
+  border: none;
+  background-color: #00bfff;
+  margin-left: 2rem;
+  width: 6rem;
+
+}
+.search{
+  margin-left: 2rem;
+}
+.profile{
+  margin-top: 4rem;
+  width: 55rem;
+  height: 22rem;
+  background-color: white;
+  margin-left: 15rem;
+  border-radius: 5px;
+}
+.profile-pic{
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 3px solid #00bfff;
+}
+.profile-part{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.profile-details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  
+}
+.login{
+  color: rgb(0, 71, 91);
+  font-size: 25px;
+  font-weight:600;
+  margin-top: 0.5px;
+  
+}
+.year{
+  margin-top: 0.5px;
+  color: black;
+}
+.profile-component{
+  display: flex;
+  flex-direction: column;
+}
+.details-part{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.followers{
+  width: 13rem;
+  height: 4rem;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+}
+.repos{
+  width: 13rem;
+  height: 4rem;
+  margin-left: 5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+
+  
+  }
+  .repos:hover{
+    border: 3px solid #00bfff;
+  }
+  
+  .followers:hover{
+    border: 3px solid #00bfff;
+  }
+  .following:hover{
+    border: 3px solid #00bfff;
+  }
+
+.following{
+  width: 13rem;
+  height: 4rem;
+  margin-left: 5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.same{
+  margin-top: 5rem;
+  min-height: 10rem;
+  max-height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 5px;
+  
+  
+}
+.list{
+  padding: 10px 0px;
+  text-decoration: underline;
+  color: blue;
+}
+::marker{
+  color: black;
+}
+.Name{
+  margin-left: 2rem;
+  margin-top: 2px;
+}
+.repo_List{
+  margin-left: 2rem;
+}
+.follow{
+  margin-left: 2rem;
+}
